@@ -1,0 +1,148 @@
+﻿.bg-cover {
+    background-size: cover !important;
+}
+body {
+    min-height: 100vh;
+}
+
+.navbar{background:#000;}
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:rgb(20, 20, 20);transition: 0.2s;}
+.nav-item:hover::after{width:100%;}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{color:rgb(30, 30, 30);}
+.nav-link{padding:15px 5px;transition:0.2s;}
+nav .navbar-nav li a{
+  color: grey !important;
+}
+nav .navbar-nav li a:hover{
+  color: white !important;
+}
+
+ body { 
+   margin: 0; 
+   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+   font-size: 1rem; 
+   font-weight: 400; 
+   line-height: 1.5; 
+   color: #212529; 
+   background-color: #fff; 
+   -webkit-text-size-adjust: 100%; 
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+ } 
+ hr { 
+   margin: 1rem 0; 
+   color: inherit; 
+   background-color: currentColor; 
+   border: 0; 
+   opacity: 0.25; 
+ } 
+ hr:not([size]) { 
+   height: 1px; 
+ } 
+ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 { 
+   margin-top: 0; 
+   margin-bottom: 0.5rem; 
+   font-weight: 700; 
+   line-height: 1.2; 
+ } 
+ h1, .h1 { 
+   font-size: calc(1.375rem + 1.5vw); 
+ } 
+ @media (min-width: 1200px) { 
+   h1, .h1 { 
+     font-size: 2.5rem; 
+   } 
+ } 
+ h2, .h2 { 
+   font-size: calc(1.325rem + 0.9vw); 
+ } 
+ @media (min-width: 1200px) { 
+   h2, .h2 { 
+     font-size: 2rem; 
+   } 
+ } 
+ h3, .h3 { 
+   font-size: calc(1.3rem + 0.6vw); 
+ } 
+ @media (min-width: 1200px) { 
+   h3, .h3 { 
+     font-size: 1.75rem; 
+   } 
+ } 
+ h4, .h4 { 
+   font-size: calc(1.275rem + 0.3vw); 
+ } 
+ @media (min-width: 1200px) { 
+   h4, .h4 { 
+     font-size: 1.5rem; 
+   } 
+ } 
+ h5, .h5 { 
+   font-size: 1.25rem; 
+ } 
+ h6, .h6 { 
+   font-size: 1rem; 
+ } 
+ p { 
+   margin-top: 0; 
+   margin-bottom: 1rem; 
+ } 
+ .features-icons { 
+   padding-top: 7rem; 
+   padding-bottom: 7rem; 
+ } 
+ .features-icons .features-icons-item { 
+   max-width: 20rem; 
+ } 
+ .features-icons .features-icons-item .features-icons-icon { 
+   height: 7rem; 
+ } 
+ .features-icons .features-icons-item .features-icons-icon i { 
+   font-size: 4.5rem; 
+ } 
+ .showcase .showcase-text { 
+   padding: 3rem; 
+ } 
+ .showcase .showcase-img { 
+   min-height: 30rem; 
+   background-size: cover; 
+ } 
+ @media (min-width: 768px) { 
+   .showcase .showcase-text { 
+     padding: 7rem; 
+   } 
+ } 
+ .testimonials { 
+   padding-top: 7rem; 
+   padding-bottom: 7rem; 
+ } 
+ .testimonials .testimonial-item { 
+   max-width: 18rem; 
+ } 
+ .testimonials .testimonial-item img { 
+   max-width: 12rem; 
+   box-shadow: 0px 5px 5px 0px #adb5bd; 
+ } 
+
+  @import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+  .fa { 
+      cursor: pointer; 
+      font-size: 21px; 
+      margin: 5px 10px 5px 10px !important 
+  } 
+  footer li:first-child { 
+      font-size: 18px !important; 
+      font-weight: bold 
+  } 
+  footer small { 
+      font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important 
+  } 
+  footer p { 
+      font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important; 
+      color: rgb(196, 193, 193) !important 
+  } 
+  .social { 
+      position: relative; 
+      left: -10px 
+  } 
+
+
